@@ -18,7 +18,9 @@ The file [freeroam.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robo
   - Otherwise, it continues forward (FreeRoam).
   - The loop repeats every 0.1 seconds.
 
-In summary: freeroam.py enables a robot to move forward freely unless it detects a nearby obstacle ahead, in which case it rotates to avoid the obstacle before proceeding.
+**In summary:** 
+freeroam.py enables a robot to move forward freely unless it detects a nearby obstacle ahead, in which case it rotates to avoid the obstacle before proceeding.
+
 ### L2_slam.py
 The file [L2_slam.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robotics-Project/blob/main/Project%20Files/L2_slam.py) is a Python script that supports Simultaneous Localization and Mapping (SLAM) for a mobile robotics project. Here’s what it does:
 
@@ -29,6 +31,7 @@ The file [L2_slam.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robot
   - Export global coordinates of obstacles to a CSV file for mapping (exportCoords).
   - Clear the CSV mapping file between runs (clearFile).
 
+**In summary:**
 This file essentially helps the robot record the position of obstacles it detects as it moves, storing these positions in a CSV file for later analysis or map-building. The main loop is set up for repeated execution, but currently only includes a sleep timer, suggesting this is a module meant to be imported and used by other scripts.
 
 ### L3_project.py
