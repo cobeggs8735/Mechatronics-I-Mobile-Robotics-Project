@@ -35,7 +35,7 @@ This file essentially helps the robot record the position of obstacles it detect
 The file [L3_project.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robotics-Project/blob/main/Project%20Files/L3_project.py) is the main control script for a mobile robotics project. It is based on a template provided for the third lab of the course, hence the name fo the file "L3_project.py". The projecct part of the name denotes its changes from the third lab of the course. Here’s what it does:
 
 - **Imports Local and External Libraries:** It loads several custom modules for robot control (like roaming, encoders, displacement, SLAM, and obstacle detection), as well as standard libraries such as NumPy, time, and math.
-- **Initializes Camera Color Thresholds:** It sets HSV (Hue, Saturation, Value) ranges, likely for detecting a colored glove with a camera (though the actual detection code is not implemented in this file).
+- **Initializes Camera Color Thresholds:** It sets HSV (Hue, Saturation, Value) ranges, for detecting a colored glove with a camera (though the actual detection code is not implemented in this file).
 - **Clears Previous SLAM Data:** It clears a file used by the SLAM module to reset stored mapping data.
 - **Defines Robot Parameters and Variables:** It sets up wheel radius, wheelbase, encoder resolution, and initializes position variables.
 - **Main Control Loop:** Inside the `if __name__ == "__main__":` block, the script enters an infinite loop where it:
