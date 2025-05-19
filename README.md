@@ -3,7 +3,7 @@ Final project designed using a SLAM algorithm (Simultaneous Localization and Map
 
 ## Summary
 ### freeroam.py
-The file freeroam.py is designed for autonomous robot navigation, specifically for "free roaming" and obstacle avoidance. Here’s what it does:
+The file [freeroam.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robotics-Project/blob/main/Project%20Files/freeroam.py) is designed for autonomous robot navigation, specifically for "free roaming" and obstacle avoidance. Here’s what it does:
 
 - It imports various modules for speed control, kinematics, inverse kinematics, and obstacle detection.
 - The main functions are:
@@ -32,7 +32,7 @@ The file [L2_slam.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robot
 This file essentially helps the robot record the position of obstacles it detects as it moves, storing these positions in a CSV file for later analysis or map-building. The main loop is set up for repeated execution, but currently only includes a sleep timer, suggesting this is a module meant to be imported and used by other scripts.
 
 ### L3_project.py
-The file [L3_project.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robotics-Project/blob/main/Project%20Files/L3_project.py) is the main control script for a mobile robotics project. It is based on a template provided for the third lab of the course, hence the name fo the file "L3_project.py". The projecct part of the name denotes it's changes from the third lab of the course. Here’s what it does:
+The file [L3_project.py](https://github.com/cobeggs8735/Mechatronics-I-Mobile-Robotics-Project/blob/main/Project%20Files/L3_project.py) is the main control script for a mobile robotics project. It is based on a template provided for the third lab of the course, hence the name fo the file "L3_project.py". The projecct part of the name denotes its changes from the third lab of the course. Here’s what it does:
 
 - **Imports Local and External Libraries:** It loads several custom modules for robot control (like roaming, encoders, displacement, SLAM, and obstacle detection), as well as standard libraries such as NumPy, time, and math.
 - **Initializes Camera Color Thresholds:** It sets HSV (Hue, Saturation, Value) ranges, likely for detecting a colored glove with a camera (though the actual detection code is not implemented in this file).
